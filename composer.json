@@ -1,0 +1,54 @@
+{
+    "name": "yormy/core-tools-laravel",
+    "description": "",
+    "keywords": [
+        "yormy",
+    ],
+    "homepage": "https://gitlab.com/yormy/core-tools-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yormy",
+            "email": "dev@yormy.com",
+            "homepage": "https://yormy.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/yormy/xid"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "ext-zip": "*",
+        "yormy/xid": "^1.0"
+    },
+    "scripts": {
+        "---FIX---": "------------------------------",
+        "pint": "pint",
+        "cs-fixer": "phpcbf",
+        "md": "vendor/bin/phpmd . html cleancode --reportfile report.html",
+        "phpcs": "phpcs --standard=PSR2 -s --exclude=Generic.Files.LineLength --standard=./phpcs.xml --report-file=phpcs-report.txt",
+        "---PSALM---": "------------------------------",
+        "stan": "vendor/bin/phpstan analyse",
+        "psalm": "vendor/bin/psalm --no-diff --no-cache --report-show-info=false --report=psalm-report.txt",
+        "psalm-debug": "vendor/bin/psalm --no-cache --debug --debug-by-line",
+        "---TESTS---": "------------------------------",
+        "test": "vendor/bin/phpunit --colors=always --testdox",
+        "test:now": "vendor/bin/phpunit --colors=always --testdox --group=testnow",
+        "test:coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/pint",
+        "---------": "------------------------------",
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
