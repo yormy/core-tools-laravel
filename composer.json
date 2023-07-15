@@ -18,13 +18,19 @@
         "php": "^8.1|^8.2",
         "ext-zip": "*",
         "yormy/xid": "^1.0",
+        "yormy/repository": "^1.0",
         "yormy/apiresponse": "^1.0",
         "yormy/dateformatter": "^1.0",
         "yormy/laravel-validation": "^1.0",
-        "yormy/assert-laravel": "^1.0",
         "rennokki/laravel-eloquent-query-cache": "^3.4"
     },
     "require-dev": {
+        "thibautselingue/local-php-security-checker-installer": "^1"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "local-php-security-checker-installer && local-php-security-checker"
+        ]
     },
     "config": {
         "sort-packages": true,
