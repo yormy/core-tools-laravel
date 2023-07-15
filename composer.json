@@ -25,17 +25,6 @@
         "rennokki/laravel-eloquent-query-cache": "^3.4"
     },
     "require-dev": {
-        "orchestra/testbench": "^7|^8",
-        "jaschilz/php-coverage-badger": "^2.0",
-        "phpmd/phpmd": "^2.13",
-        "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^9|^10",
-        "psalm/plugin-laravel": "^2.8",
-        "squizlabs/php_codesniffer": "^3.7",
-        "thibautselingue/local-php-security-checker-installer": "^1",
-        "vimeo/psalm": "^5.13",
-        "laravel/pint": "^1.10",
-        "spatie/laravel-ray": "^1.32"
     },
     "config": {
         "sort-packages": true,
