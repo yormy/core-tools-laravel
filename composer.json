@@ -17,6 +17,7 @@
     "require": {
         "php": "^8.1|^8.2",
         "ext-zip": "*",
+        "ezyang/htmlpurifier": "^4",
         "yormy/xid": "^1.0",
         "yormy/repository": "^1.0",
         "yormy/apiresponse": "^1.0",
