@@ -7646,30 +7646,22 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.com:yormy/dateformatter.git",
-                "reference": "be9adcbf367ae4dfb9140c4ed7e6fa12d9177ce1"
+                "url": "https://github.com/yormy/DateFormater.git",
+                "reference": "e0fd2f15bd99571b5f34737950c3b776e799dbc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/yormy%2Fdateformatter/repository/archive.zip?sha=be9adcbf367ae4dfb9140c4ed7e6fa12d9177ce1",
-                "reference": "be9adcbf367ae4dfb9140c4ed7e6fa12d9177ce1",
+                "url": "https://api.github.com/repos/yormy/DateFormater/zipball/e0fd2f15bd99571b5f34737950c3b776e799dbc0",
+                "reference": "e0fd2f15bd99571b5f34737950c3b776e799dbc0",
                 "shasum": ""
             },
             "require": {
-                "ext-zip": "*",
                 "laravel/framework": "^9|^10",
-                "orchestra/testbench": "^7|^8",
+                "nesbot/carbon": "^2.68",
                 "php": "^8.1|^8.2"
             },
             "require-dev": {
-                "jaschilz/php-coverage-badger": "^2.0",
-                "phpmd/phpmd": "^2.12",
-                "phpstan/phpstan": "^1.8",
-                "phpunit/phpunit": "^9|^10",
-                "psalm/plugin-laravel": "^2.0",
-                "roave/security-advisories": "dev-master",
-                "squizlabs/php_codesniffer": "^3.7",
-                "vimeo/psalm": "^4.24"
+                "yormy/dev-tools-laravel": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -7705,7 +7697,11 @@
                 "dateformatter",
                 "yormy"
             ],
-            "time": "2023-07-14T12:37:26+00:00"
+            "support": {
+                "issues": "https://github.com/yormy/DateFormater/issues",
+                "source": "https://github.com/yormy/DateFormater/tree/1.0.0"
+            },
+            "time": "2023-07-15T08:32:33+00:00"
         },
         {
             "name": "yormy/laravel-validation",
