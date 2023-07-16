@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c18da41585240210eb4a56591c04198",
+    "content-hash": "e43fbfd6b72481d29fe4786d7456e848",
     "packages": [
         {
             "name": "brick/math",
@@ -12105,16 +12105,16 @@
         },
         {
             "name": "yormy/dev-tools-laravel",
-            "version": "1.0.2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/dev-tools-laravel.git",
-                "reference": "93dace7c9bf45ff6b24e4b12a8a9067e9babe562"
+                "reference": "87c2c37722410ef715130a4a5d2e7a83efaa70ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/dev-tools-laravel/zipball/93dace7c9bf45ff6b24e4b12a8a9067e9babe562",
-                "reference": "93dace7c9bf45ff6b24e4b12a8a9067e9babe562",
+                "url": "https://api.github.com/repos/yormy/dev-tools-laravel/zipball/87c2c37722410ef715130a4a5d2e7a83efaa70ec",
+                "reference": "87c2c37722410ef715130a4a5d2e7a83efaa70ec",
                 "shasum": ""
             },
             "require": {
@@ -12137,6 +12137,18 @@
                 "yormy/assert-laravel": "^1.0"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Yormy\\DevToolsLaravel\\DevToolsLaravelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yormy\\DevToolsLaravel\\": "src"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -12155,9 +12167,9 @@
             ],
             "support": {
                 "issues": "https://github.com/yormy/dev-tools-laravel/issues",
-                "source": "https://github.com/yormy/dev-tools-laravel/tree/1.0.2"
+                "source": "https://github.com/yormy/dev-tools-laravel/tree/1.0.0"
             },
-            "time": "2023-07-16T09:44:21+00:00"
+            "time": "2023-07-16T14:46:41+00:00"
         },
         {
             "name": "zbateson/mail-mime-parser",
