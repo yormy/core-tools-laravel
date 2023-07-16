@@ -1,6 +1,6 @@
 <?php
 
-namespace Yormy\CoreToolsLaravel\src;
+namespace Yormy\CoreToolsLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
