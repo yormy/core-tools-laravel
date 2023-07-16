@@ -59,13 +59,6 @@
             "Yormy\\CoreToolsLaravel\\Tests\\": "tests"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Yormy\\CoreToolsLaravel\\CoreToolsLaravelServiceProvider"
-            ]
-        }
-    },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
