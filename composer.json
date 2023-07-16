@@ -49,6 +49,23 @@
             "local-php-security-checker-installer && local-php-security-checker"
         ]
     },
+    "autoload": {
+        "psr-4": {
+            "Yormy\\CoreToolsLaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yormy\\CoreToolsLaravel\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yormy\\CoreToolsLaravel\\CoreToolsLaravelServiceProvider"
+            ]
+        }
+    },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
