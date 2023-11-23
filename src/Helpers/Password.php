@@ -4,8 +4,18 @@ namespace Yormy\CoreToolsLaravel\Helpers;
 
 class Password
 {
-    public static function Encrypt(String $password) : string
+    public static function hashEncrypt(String $password) : string
     {
-        return bcrypt(Hasher::hash($password));
+        return self::encrypt(self::hash($password));
+    }
+
+    public static function encrypt(String $password) : string
+    {
+        return bcrypt($password);
+    }
+
+    public static function hash(String $password) : string
+    {
+        return Hasher::hash($password);
     }
 }
