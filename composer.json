@@ -20,9 +20,9 @@
         "ezyang/htmlpurifier": "^4",
         "yormy/xid": "^1.0",
         "yormy/repository": "^1.0",
-        "yormy/apiresponse": "^1.0",
+        "yormy/apiresponse": "dev-master",
         "yormy/dateformatter": "^1.0",
-        "yormy/validation-laravel": "^1.0",
+        "yormy/validation-laravel": "dev-master",
         "rennokki/laravel-eloquent-query-cache": "^3.4"
     },
     "require-dev": {
