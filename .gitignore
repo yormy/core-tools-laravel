@@ -1,2 +1,11 @@
 .idea
+.php_cs
+.php_cs.cache
+.phpunit.result.cache
+.phpunit.cache
+build
 vendor
+
+docs/.vitepress/cache
+node_modules
+clover.xml
