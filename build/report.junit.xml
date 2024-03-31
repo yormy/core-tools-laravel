@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/packages/php/core-tools-laravel/phpunit.xml.dist" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.055415">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.055415">
+      <testsuite name="Yormy\CoreToolsLaravel\Tests\Unit\DataTest" file="/packages/php/core-tools-laravel/tests/Unit/DataTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.055415">
+        <testcase name="SimpleData" file="/packages/php/core-tools-laravel/tests/Unit/DataTest.php" line="14" class="Yormy\CoreToolsLaravel\Tests\Unit\DataTest" classname="Yormy.CoreToolsLaravel.Tests.Unit.DataTest" assertions="1" time="0.055415"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

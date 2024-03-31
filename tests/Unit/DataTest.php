@@ -4,12 +4,14 @@ namespace Yormy\CoreToolsLaravel\Tests\Unit;
 
 use Yormy\CoreToolsLaravel\Tests\TestCase;
 
-class ExampleUnitTest extends TestCase
+class DataTest extends TestCase
 {
     /**
      * @test
+     *
+     * @group xxx
      */
-    public function example(): void
+    public function SimpleData(): void
     {
         $this->assertTrue(true);
     }
