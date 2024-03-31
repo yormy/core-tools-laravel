@@ -3,8 +3,8 @@
 namespace Yormy\CoreToolsLaravel\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Yormy\CoreToolsLaravel\CoreToolsLaravelServiceProvider;
 use Yormy\AssertLaravel\Helpers\AssertJsonMacros;
+use Yormy\CoreToolsLaravel\CoreToolsLaravelServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {
