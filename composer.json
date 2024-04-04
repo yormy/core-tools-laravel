@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "php": "^8",
+        "php": "^8.2",
         "ext-zip": "*",
         "ezyang/htmlpurifier": "^v4.17",
         "yormy/xid": "dev-master",
