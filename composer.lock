@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1048b8bd7b7e41e37d54aa8b88561b28",
+    "content-hash": "41a86f1bd289ea07077e76f780db438b",
     "packages": [
         {
             "name": "brick/math",
@@ -1972,16 +1972,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.2.3",
+            "version": "3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "4d599a6e2351d6b6bf21737accdfe1a4ce3fdbb1"
+                "reference": "82c28278c1c8f7b82dcdab25692237f052ffc8d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4d599a6e2351d6b6bf21737accdfe1a4ce3fdbb1",
-                "reference": "4d599a6e2351d6b6bf21737accdfe1a4ce3fdbb1",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/82c28278c1c8f7b82dcdab25692237f052ffc8d8",
+                "reference": "82c28278c1c8f7b82dcdab25692237f052ffc8d8",
                 "shasum": ""
             },
             "require": {
@@ -2074,7 +2074,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-30T18:22:00+00:00"
+            "time": "2024-04-05T09:58:10+00:00"
         },
         {
             "name": "nette/schema",
@@ -5662,17 +5662,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/apiresponse.git",
-                "reference": "0db286177a2a2615713c2bb826c450b73c501bd1"
+                "reference": "f87a0a8c9971e1d7416747382be61445e8f4c30a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/apiresponse/zipball/0db286177a2a2615713c2bb826c450b73c501bd1",
-                "reference": "0db286177a2a2615713c2bb826c450b73c501bd1",
+                "url": "https://api.github.com/repos/yormy/apiresponse/zipball/f87a0a8c9971e1d7416747382be61445e8f4c30a",
+                "reference": "f87a0a8c9971e1d7416747382be61445e8f4c30a",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^11",
-                "php": "^8"
+                "php": "^8.2"
             },
             "require-dev": {
                 "yormy/dev-tools-laravel": "dev-master"
@@ -5716,7 +5716,7 @@
                 "issues": "https://github.com/yormy/apiresponse/issues",
                 "source": "https://github.com/yormy/apiresponse/tree/master"
             },
-            "time": "2024-04-02T19:55:34+00:00"
+            "time": "2024-04-07T07:36:27+00:00"
         },
         {
             "name": "yormy/dateformatter",
@@ -5724,17 +5724,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/DateFormater.git",
-                "reference": "ebc1a2b41f58abef6f759e6be195c6751277ff88"
+                "reference": "5c32864dfd56aa6138872eede6af88293ad930c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/DateFormater/zipball/ebc1a2b41f58abef6f759e6be195c6751277ff88",
-                "reference": "ebc1a2b41f58abef6f759e6be195c6751277ff88",
+                "url": "https://api.github.com/repos/yormy/DateFormater/zipball/5c32864dfd56aa6138872eede6af88293ad930c6",
+                "reference": "5c32864dfd56aa6138872eede6af88293ad930c6",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^11",
-                "php": "^8"
+                "php": "^8.2"
             },
             "require-dev": {
                 "yormy/dev-tools-laravel": "dev-master"
@@ -5778,7 +5778,7 @@
                 "issues": "https://github.com/yormy/DateFormater/issues",
                 "source": "https://github.com/yormy/DateFormater/tree/master"
             },
-            "time": "2024-04-02T20:14:26+00:00"
+            "time": "2024-04-04T16:08:52+00:00"
         },
         {
             "name": "yormy/repository",
@@ -5786,17 +5786,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/repository.git",
-                "reference": "d5bbca3cd885260c3386f53c822da8d7a43f51c7"
+                "reference": "118e13c8412236102d1dd3eac7c4c0143f2d6fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/repository/zipball/d5bbca3cd885260c3386f53c822da8d7a43f51c7",
-                "reference": "d5bbca3cd885260c3386f53c822da8d7a43f51c7",
+                "url": "https://api.github.com/repos/yormy/repository/zipball/118e13c8412236102d1dd3eac7c4c0143f2d6fa3",
+                "reference": "118e13c8412236102d1dd3eac7c4c0143f2d6fa3",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^11",
-                "php": "^8"
+                "php": "^8.2"
             },
             "require-dev": {
                 "yormy/dev-tools-laravel": "dev-master"
@@ -5840,7 +5840,7 @@
                 "issues": "https://github.com/yormy/repository/issues",
                 "source": "https://github.com/yormy/repository/tree/master"
             },
-            "time": "2024-04-02T19:51:14+00:00"
+            "time": "2024-04-04T16:11:41+00:00"
         },
         {
             "name": "yormy/validation-laravel",
@@ -5848,17 +5848,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/validation-laravel.git",
-                "reference": "3757e6c2943af675105b2e5f3220a0a6a2c5ecc2"
+                "reference": "f415e28f97c129c5b54a29df93d532d9e5028b18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/validation-laravel/zipball/3757e6c2943af675105b2e5f3220a0a6a2c5ecc2",
-                "reference": "3757e6c2943af675105b2e5f3220a0a6a2c5ecc2",
+                "url": "https://api.github.com/repos/yormy/validation-laravel/zipball/f415e28f97c129c5b54a29df93d532d9e5028b18",
+                "reference": "f415e28f97c129c5b54a29df93d532d9e5028b18",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^11",
-                "php": "^8"
+                "php": "^8.2"
             },
             "require-dev": {
                 "yormy/dev-tools-laravel": "dev-master"
@@ -5902,7 +5902,7 @@
                 "issues": "https://github.com/yormy/validation-laravel/issues",
                 "source": "https://github.com/yormy/validation-laravel/tree/master"
             },
-            "time": "2024-04-02T20:01:26+00:00"
+            "time": "2024-04-04T16:14:28+00:00"
         },
         {
             "name": "yormy/xid",
@@ -5910,17 +5910,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/xid.git",
-                "reference": "59d6c928b45c1318c364de0a00ed2aea6a0f659d"
+                "reference": "8741bf26ecc9ca65d7e16b3d19146b53d551785d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/xid/zipball/59d6c928b45c1318c364de0a00ed2aea6a0f659d",
-                "reference": "59d6c928b45c1318c364de0a00ed2aea6a0f659d",
+                "url": "https://api.github.com/repos/yormy/xid/zipball/8741bf26ecc9ca65d7e16b3d19146b53d551785d",
+                "reference": "8741bf26ecc9ca65d7e16b3d19146b53d551785d",
                 "shasum": ""
             },
             "require": {
                 "linkorb/xuid": "^1.4.0",
-                "php": "^8"
+                "php": "^8.2"
             },
             "require-dev": {
                 "yormy/dev-tools-laravel": "dev-master"
@@ -5962,9 +5962,9 @@
             ],
             "support": {
                 "issues": "https://github.com/yormy/xid/issues",
-                "source": "https://github.com/yormy/xid/tree/1.1.0"
+                "source": "https://github.com/yormy/xid/tree/master"
             },
-            "time": "2024-04-02T19:45:58+00:00"
+            "time": "2024-04-04T16:10:58+00:00"
         }
     ],
     "packages-dev": [
@@ -7846,16 +7846,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v9.0.9",
+            "version": "v9.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "052b2f17051a57d46c54e6e56ebaa791c58f675a"
+                "reference": "186f6f5aec03e62e132be6a301fd760ddbd540d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/052b2f17051a57d46c54e6e56ebaa791c58f675a",
-                "reference": "052b2f17051a57d46c54e6e56ebaa791c58f675a",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/186f6f5aec03e62e132be6a301fd760ddbd540d3",
+                "reference": "186f6f5aec03e62e132be6a301fd760ddbd540d3",
                 "shasum": ""
             },
             "require": {
@@ -7889,7 +7889,7 @@
                 "mockery/mockery": "Allow using Mockery for testing (^1.6).",
                 "nunomaduro/collision": "Allow using Laravel style tests output and parallel testing (^8.0).",
                 "orchestra/testbench-dusk": "Allow using Laravel Dusk for testing (^9.0).",
-                "phpunit/phpunit": "Allow using PHPUnit for testing (^10.5).",
+                "phpunit/phpunit": "Allow using PHPUnit for testing (^10.5 || ^11.0).",
                 "symfony/process": "Required to use Orchestra\\Testbench\\remote function (^7.0).",
                 "symfony/yaml": "Required for Testbench CLI (^7.0).",
                 "vlucas/phpdotenv": "Required for Testbench CLI (^5.4.1)."
@@ -7931,7 +7931,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-03-26T23:21:46+00:00"
+            "time": "2024-04-05T13:55:45+00:00"
         },
         {
             "name": "orchestra/workbench",
@@ -8436,16 +8436,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.27.0",
+            "version": "1.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "86e4d5a4b036f8f0be1464522f4c6b584c452757"
+                "reference": "cd06d6b1a1b3c75b0b83f97577869fd85a3cd4fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/86e4d5a4b036f8f0be1464522f4c6b584c452757",
-                "reference": "86e4d5a4b036f8f0be1464522f4c6b584c452757",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/cd06d6b1a1b3c75b0b83f97577869fd85a3cd4fb",
+                "reference": "cd06d6b1a1b3c75b0b83f97577869fd85a3cd4fb",
                 "shasum": ""
             },
             "require": {
@@ -8477,9 +8477,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.27.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.28.0"
             },
-            "time": "2024-03-21T13:14:53+00:00"
+            "time": "2024-04-03T18:51:33+00:00"
         },
         {
             "name": "phpstan/phpstan",
@@ -8487,12 +8487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "39a4b181b585acb5bdd78cdf3292d809247dc9aa"
+                "reference": "590c79868cd96f7f7eef45b35e814b00dad6419a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/39a4b181b585acb5bdd78cdf3292d809247dc9aa",
-                "reference": "39a4b181b585acb5bdd78cdf3292d809247dc9aa",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/590c79868cd96f7f7eef45b35e814b00dad6419a",
+                "reference": "590c79868cd96f7f7eef45b35e814b00dad6419a",
                 "shasum": ""
             },
             "require": {
@@ -8536,13 +8536,9 @@
                 {
                     "url": "https://github.com/phpstan",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2024-04-03T13:42:00+00:00"
+            "time": "2024-04-07T16:23:16+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -8867,16 +8863,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.16",
+            "version": "10.5.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "18f8d4a5f52b61fdd9370aaae3167daa0eeb69cd"
+                "reference": "c1f736a473d21957ead7e94fcc029f571895abf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/18f8d4a5f52b61fdd9370aaae3167daa0eeb69cd",
-                "reference": "18f8d4a5f52b61fdd9370aaae3167daa0eeb69cd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c1f736a473d21957ead7e94fcc029f571895abf5",
+                "reference": "c1f736a473d21957ead7e94fcc029f571895abf5",
                 "shasum": ""
             },
             "require": {
@@ -8948,7 +8944,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.16"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.17"
             },
             "funding": [
                 {
@@ -8964,7 +8960,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-28T10:08:10+00:00"
+            "time": "2024-04-05T04:39:01+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -9149,16 +9145,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "c59507a9090b465d65e1aceed91e5b81986e375b"
+                "reference": "6e04d0eb087aef707fa0c5686d33d6ff61f4a555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/c59507a9090b465d65e1aceed91e5b81986e375b",
-                "reference": "c59507a9090b465d65e1aceed91e5b81986e375b",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6e04d0eb087aef707fa0c5686d33d6ff61f4a555",
+                "reference": "6e04d0eb087aef707fa0c5686d33d6ff61f4a555",
                 "shasum": ""
             },
             "require": {
@@ -9170,6 +9166,9 @@
                 "rector/rector-downgrade-php": "*",
                 "rector/rector-phpunit": "*",
                 "rector/rector-symfony": "*"
+            },
+            "suggest": {
+                "ext-dom": "To manipulate phpunit.xml via the custom-rule command"
             },
             "bin": [
                 "bin/rector"
@@ -9193,7 +9192,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/1.0.3"
+                "source": "https://github.com/rectorphp/rector/tree/1.0.4"
             },
             "funding": [
                 {
@@ -9201,7 +9200,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-14T15:04:18+00:00"
+            "time": "2024-04-05T09:01:07+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -9209,12 +9208,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "8f58125e25237ea649fd369348ca7c2a42337f86"
+                "reference": "55338196704d6dae11257b34c4f5cdde484dfaa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8f58125e25237ea649fd369348ca7c2a42337f86",
-                "reference": "8f58125e25237ea649fd369348ca7c2a42337f86",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/55338196704d6dae11257b34c4f5cdde484dfaa9",
+                "reference": "55338196704d6dae11257b34c4f5cdde484dfaa9",
                 "shasum": ""
             },
             "conflict": {
@@ -9230,7 +9229,7 @@
                 "alterphp/easyadmin-extension-bundle": ">=1.2,<1.2.11|>=1.3,<1.3.1",
                 "amazing/media2click": ">=1,<1.3.3",
                 "amphp/artax": "<1.0.6|>=2,<2.0.6",
-                "amphp/http": "<1.0.1",
+                "amphp/http": "<=1.7.2|>=2,<=2.1",
                 "amphp/http-client": ">=4,<4.4",
                 "anchorcms/anchor-cms": "<=0.12.7",
                 "andreapollastri/cipi": "<=3.1.15",
@@ -9298,7 +9297,7 @@
                 "codeigniter4/shield": "<1.0.0.0-beta8",
                 "codiad/codiad": "<=2.8.4",
                 "composer/composer": "<1.10.27|>=2,<2.2.23|>=2.3,<2.7",
-                "concrete5/concrete5": "<9.2.7",
+                "concrete5/concrete5": "<9.2.8",
                 "concrete5/core": "<8.5.8|>=9,<9.1",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/contao": ">=4,<4.4.56|>=4.5,<4.9.40|>=4.10,<4.11.7|>=4.13,<4.13.21|>=5.1,<5.1.4",
@@ -9331,7 +9330,7 @@
                 "doctrine/mongodb-odm": "<1.0.2",
                 "doctrine/mongodb-odm-bundle": "<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1|>=2.8.3,<2.8.4",
-                "dolibarr/dolibarr": "<18.0.2",
+                "dolibarr/dolibarr": "<=19",
                 "dompdf/dompdf": "<2.0.4",
                 "doublethreedigital/guest-entries": "<3.1.2",
                 "drupal/core": ">=6,<6.38|>=7,<7.96|>=8,<10.1.8|>=10.2,<10.2.2",
@@ -9945,7 +9944,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-02T19:04:21+00:00"
+            "time": "2024-04-03T22:04:54+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -12477,12 +12476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/assert-laravel.git",
-                "reference": "84a101692105cf090d05de54333e1c97eefd8233"
+                "reference": "ead9ab0f2f33354b2da858877c6aeaf80261cacd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/assert-laravel/zipball/84a101692105cf090d05de54333e1c97eefd8233",
-                "reference": "84a101692105cf090d05de54333e1c97eefd8233",
+                "url": "https://api.github.com/repos/yormy/assert-laravel/zipball/ead9ab0f2f33354b2da858877c6aeaf80261cacd",
+                "reference": "ead9ab0f2f33354b2da858877c6aeaf80261cacd",
                 "shasum": ""
             },
             "require": {
@@ -12534,7 +12533,7 @@
                 "issues": "https://github.com/yormy/assert-laravel/issues",
                 "source": "https://github.com/yormy/assert-laravel/tree/master"
             },
-            "time": "2024-04-02T19:27:15+00:00"
+            "time": "2024-04-04T16:18:51+00:00"
         },
         {
             "name": "yormy/dev-tools-laravel",
@@ -12542,12 +12541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/dev-tools-laravel.git",
-                "reference": "b99c7a9cd83619cda35a83ac50078be9eb545a81"
+                "reference": "ec14eb069f94890ab943504a5b28f7169b11b31c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/dev-tools-laravel/zipball/b99c7a9cd83619cda35a83ac50078be9eb545a81",
-                "reference": "b99c7a9cd83619cda35a83ac50078be9eb545a81",
+                "url": "https://api.github.com/repos/yormy/dev-tools-laravel/zipball/ec14eb069f94890ab943504a5b28f7169b11b31c",
+                "reference": "ec14eb069f94890ab943504a5b28f7169b11b31c",
                 "shasum": ""
             },
             "require": {
@@ -12597,7 +12596,7 @@
                 "issues": "https://github.com/yormy/dev-tools-laravel/issues",
                 "source": "https://github.com/yormy/dev-tools-laravel/tree/master"
             },
-            "time": "2024-04-02T19:35:55+00:00"
+            "time": "2024-04-04T16:17:01+00:00"
         },
         {
             "name": "zbateson/mail-mime-parser",
@@ -12821,7 +12820,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8",
+        "php": "^8.2",
         "ext-zip": "*"
     },
     "platform-dev": [],
