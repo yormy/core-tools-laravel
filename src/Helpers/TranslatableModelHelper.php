@@ -11,14 +11,20 @@ class TranslatableModelHelper extends Model
 
     protected $guarded = [];
 
+    /**
+     * @var string[]
+     */
     protected $translatable = ['value'];
 
     public static function fromJsonFields(string $jsonLanguages): string
     {
         $object = new self;
-        $object->setTranslations('value', json_decode($jsonLanguages, true));
 
-        return $object->value;
+        /** @var string[] $translations */
+        $translations = json_decode($jsonLanguages, true);
+        $object->setTranslations('value', $translations);
+
+        return $object->value; //@phpstan-ignore-line
 
     }
 }

@@ -23,16 +23,16 @@
     "require": {
         "php": "^8.2",
         "ext-zip": "*",
-        "ezyang/htmlpurifier": "^4",
+        "ezyang/htmlpurifier": "^v4.17",
         "yormy/xid": "dev-master",
         "yormy/repository": "dev-master",
         "yormy/apiresponse": "dev-master",
-        "yormy/dateformatter": "dev-master",
         "yormy/validation-laravel": "dev-master",
+        "yormy/dateformatter": "dev-master",
         "rennokki/laravel-eloquent-query-cache": "dev-laravel11"
     },
     "require-dev": {
-
+        "spatie/laravel-translatable": "^6.6",
         "yormy/dev-tools-laravel": "dev-master"
     },
     "scripts": {
@@ -51,7 +51,7 @@
         "coverage:check" : "composer coverage:clover && php coverage-checker.php clover.xml 50",
         "coverage:report" : "php -dpcov.enabled=1 -dpcov.directory=. -dpcov.exclude='~vendor~' ./vendor/bin/phpunit --coverage-html ./meta/coverage ",
         "coverage:text" : "php -dpcov.enabled=1 -dpcov.directory=. -dpcov.exclude='~vendor~' ./vendor/bin/phpunit --coverage-text ",
-        "coverage:clover" : "php -dpcov.enabled=1 -dpcov.directory=. -dpcov.exclude='~vendor~' ./vendor/bin/phpunit --coverage-clover coverage/clover.xml",
+        "coverage:clover" : "php -dpcov.enabled=1 -dpcov.directory=. -dpcov.exclude='~vendor~' ./vendor/bin/phpunit --coverage-clover clover.xml",
         "---------- TEST ---------- ": "",
         "test": "vendor/bin/phpunit tests/Features tests/Unit --colors=always --testdox",
         "test:unit": "vendor/bin/paratest --colors=always --testdox --testsuite Unit",
