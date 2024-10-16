@@ -26,7 +26,7 @@
         "ezyang/htmlpurifier": "^v4.17",
         "yormy/xid": "dev-master",
         "yormy/repository": "dev-master",
-        "yormy/apiresponse": "dev-master",
+        "yormy/apiresponse": "1.0.10",
         "yormy/validation-laravel": "dev-master",
         "yormy/dateformatter": "dev-master",
         "rennokki/laravel-eloquent-query-cache": "dev-laravel11"
