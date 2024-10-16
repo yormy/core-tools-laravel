@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e16d052ba80b6b523bd5b5eceeec1461",
+    "content-hash": "0c97311a343ee75cb3e0f4f444cd3b96",
     "packages": [
         {
             "name": "brick/math",
@@ -5593,26 +5593,25 @@
         },
         {
             "name": "yormy/apiresponse",
-            "version": "dev-master",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yormy/apiresponse.git",
-                "reference": "5d108901e2d2a4d5fde97ca4b6c63c7c05f6d85c"
+                "reference": "8c8954b215d9a68d7b78fc79a727d4d4011444b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yormy/apiresponse/zipball/5d108901e2d2a4d5fde97ca4b6c63c7c05f6d85c",
-                "reference": "5d108901e2d2a4d5fde97ca4b6c63c7c05f6d85c",
+                "url": "https://api.github.com/repos/yormy/apiresponse/zipball/8c8954b215d9a68d7b78fc79a727d4d4011444b3",
+                "reference": "8c8954b215d9a68d7b78fc79a727d4d4011444b3",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "^11",
+                "laravel/framework": "^10|^11",
                 "php": "^8.2"
             },
             "require-dev": {
                 "yormy/dev-tools-laravel": "dev-master"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -5649,9 +5648,9 @@
             ],
             "support": {
                 "issues": "https://github.com/yormy/apiresponse/issues",
-                "source": "https://github.com/yormy/apiresponse/tree/master"
+                "source": "https://github.com/yormy/apiresponse/tree/1.0.10"
             },
-            "time": "2024-10-12T09:29:33+00:00"
+            "time": "2024-10-16T13:58:15+00:00"
         },
         {
             "name": "yormy/dateformatter",
@@ -12912,7 +12911,6 @@
     "stability-flags": {
         "yormy/xid": 20,
         "yormy/repository": 20,
-        "yormy/apiresponse": 20,
         "yormy/validation-laravel": 20,
         "yormy/dateformatter": 20,
         "rennokki/laravel-eloquent-query-cache": 20,

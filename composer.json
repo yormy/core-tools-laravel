@@ -27,8 +27,7 @@
         "yormy/xid": "dev-master",
         "yormy/repository": "dev-master",
         "yormy/apiresponse": "1.0.10",
-        "yormy/validation-laravel": "dev-master",
-        "yormy/dateformatter": "dev-master",
+        "yormy/validation-laravel": "1.0.3",
         "rennokki/laravel-eloquent-query-cache": "dev-laravel11"
     },
     "require-dev": {
