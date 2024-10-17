@@ -24,15 +24,15 @@
         "php": "^8.2",
         "ext-zip": "*",
         "ezyang/htmlpurifier": "^v4.17",
-        "yormy/xid": "dev-master",
-        "yormy/repository": "dev-master",
+        "yormy/xid": "1.1.2",
+        "yormy/repository": "1.0.2r",
         "yormy/apiresponse": "1.0.10",
         "yormy/validation-laravel": "1.0.3",
         "rennokki/laravel-eloquent-query-cache": "dev-laravel11"
     },
     "require-dev": {
         "spatie/laravel-translatable": "^6.6",
-        "yormy/dev-tools-laravel": "dev-master"
+        "yormy/dev-tools-laravel": "1.0.4"
     },
     "scripts": {
         "---------- STYLE ---------- ": "",
