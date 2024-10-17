@@ -25,7 +25,7 @@
         "ext-zip": "*",
         "ezyang/htmlpurifier": "^v4.17",
         "yormy/xid": "1.1.2",
-        "yormy/repository": "1.0.2r",
+        "yormy/repository": "1.0.2",
         "yormy/apiresponse": "1.0.10",
         "yormy/validation-laravel": "1.0.3",
         "rennokki/laravel-eloquent-query-cache": "dev-laravel11"
