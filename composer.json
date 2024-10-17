@@ -28,7 +28,7 @@
         "yormy/repository": "1.0.2",
         "yormy/apiresponse": "1.0.10",
         "yormy/validation-laravel": "1.0.3",
-        "rennokki/laravel-eloquent-query-cache": "dev-laravel11"
+        "rennokki/laravel-eloquent-query-cache": "0.0.1"
     },
     "require-dev": {
         "spatie/laravel-translatable": "^6.6",
