@@ -21,7 +21,7 @@
         "yormy/xid": "1.1.2",
         "yormy/repository": "1.0.2",
         "yormy/apiresponse": "1.0.10",
-        "yormy/validation-laravel": "1.0.3",
+        "yormy/validation-laravel": "1.1.0",
         "rennokki/laravel-eloquent-query-cache": "^3.5.0"
     },
     "require-dev": {
