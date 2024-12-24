@@ -14,12 +14,6 @@
             "role": "Developer"
         }
     ],
-    "repositories" : [
-        {
-            "type": "vcs",
-            "url": "https://github.com/yormy/laravel-eloquent-query-cache.git"
-        }
-    ],
     "require": {
         "php": "^8.2",
         "ext-zip": "*",
@@ -28,11 +22,11 @@
         "yormy/repository": "1.0.2",
         "yormy/apiresponse": "1.0.10",
         "yormy/validation-laravel": "1.0.3",
-        "rennokki/laravel-eloquent-query-cache": "0.0.1"
+        "rennokki/laravel-eloquent-query-cache": "^3.5.0"
     },
     "require-dev": {
         "spatie/laravel-translatable": "^6.6",
-        "yormy/dev-tools-laravel": "1.0.4"
+        "yormy/dev-tools-laravel": "^1.0.6"
     },
     "scripts": {
         "---------- STYLE ---------- ": "",
