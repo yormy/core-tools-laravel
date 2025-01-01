@@ -16,14 +16,14 @@ class CoreToolsLaravelServiceProvider extends ServiceProvider
 
     public function register(): void
     {
-        $this->mergeConfigFrom(static::CONFIG_FILE,  'core-tools-laravel');
+        $this->mergeConfigFrom(static::CONFIG_FILE, 'core-tools-laravel');
     }
 
     private function publish(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                self::CONFIG_FILE => config_path('core-tools-laravel.php')
+                self::CONFIG_FILE => config_path('core-tools-laravel.php'),
             ], 'config');
         }
     }

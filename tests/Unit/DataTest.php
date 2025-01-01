@@ -11,7 +11,7 @@ class DataTest extends TestCase
      *
      * @group xxx
      */
-    public function SimpleData(): void
+    public function simple_data(): void
     {
         $this->assertTrue(true);
     }

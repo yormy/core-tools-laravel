@@ -8,6 +8,6 @@ class TestConfig
 {
     public static function setup(): void
     {
-        //config(['ccc' => require __DIR__.'/../../config/tripwire.php']);
+        // config(['ccc' => require __DIR__.'/../../config/tripwire.php']);
     }
 }

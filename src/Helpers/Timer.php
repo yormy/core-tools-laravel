@@ -15,7 +15,7 @@ class Timer
 
     public function end(string $tag, bool $asDieDump = false)
     {
-        if (!array_key_exists($tag, $this->startTimes)) {
+        if (! array_key_exists($tag, $this->startTimes)) {
             dd('No start time set');
         }
 
@@ -30,14 +30,14 @@ class Timer
 
         $durationRating = '-';
         if ($duration > 10) {
-            $durationRating = "***";
+            $durationRating = '***';
         } elseif ($duration > 5) {
-            $durationRating = "**";
+            $durationRating = '**';
         } elseif ($duration > 1) {
-            $durationRating = "*";
+            $durationRating = '*';
         }
 
-        $message = "Timing of: \t$tag:\t" . $duration . "\t  ms";
+        $message = "Timing of: \t$tag:\t".$duration."\t  ms";
         $message .= "  ($durationSinceStart ms since start) $durationRating";
 
         if ($duration > 0) {
@@ -64,17 +64,17 @@ class Timer
     public static function reset()
     {
         //  unlink('log_timing.txt');
-        $message = "-------------------RESET-----------------------------------";
+        $message = '-------------------RESET-----------------------------------';
         self::toFile($message);
     }
 
-    //Log::debug is not always available in the early stages of loading
+    // Log::debug is not always available in the early stages of loading
     public static function toFile($message)
     {
-//        $time = date("Y-m-d H:i:s");
-//        $fp = fopen('log_timing.log', 'a');//opens file in append mode.
-//
-//        fwrite($fp, $time . ": " . $message . PHP_EOL);
-//        fclose($fp);
+        //        $time = date("Y-m-d H:i:s");
+        //        $fp = fopen('log_timing.log', 'a');//opens file in append mode.
+        //
+        //        fwrite($fp, $time . ": " . $message . PHP_EOL);
+        //        fclose($fp);
     }
 }

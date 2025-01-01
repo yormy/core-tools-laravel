@@ -16,16 +16,16 @@ class Currency
 
     public function formatPrice(float $price_with_decimals)
     {
-        return "$%$" . $price_with_decimals;
+        return '$%$'.$price_with_decimals;
     }
 
     public static function toSymbol(string $letters): string
     {
-        if ("EUR" === strtoupper($letters)) {
+        if (strtoupper($letters) === 'EUR') {
             return '€';
         }
 
-        if ("USD" === strtoupper($letters)) {
+        if (strtoupper($letters) === 'USD') {
             return '$';
         }
 

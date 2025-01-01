@@ -9,7 +9,7 @@ trait RequestDefaultsTrait
         // add default values
         if (method_exists($this, 'defaults')) {
             foreach ($this->defaults() as $key => $defaultValue) {
-                if (!$this->has($key)) {
+                if (! $this->has($key)) {
                     $this->merge([$key => $defaultValue]);
                 }
             }

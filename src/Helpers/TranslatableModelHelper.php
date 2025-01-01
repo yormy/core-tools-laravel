@@ -24,7 +24,7 @@ class TranslatableModelHelper extends Model
         $translations = json_decode($jsonLanguages, true);
         $object->setTranslations('value', $translations);
 
-        return $object->value; //@phpstan-ignore-line
+        return $object->value; // @phpstan-ignore-line
 
     }
 }

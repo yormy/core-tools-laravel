@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Yormy\CoreToolsLaravel\Scopes;
 
 use Carbon\Carbon;

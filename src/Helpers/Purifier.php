@@ -12,7 +12,7 @@ class Purifier
         return htmlspecialchars($dirtyHtml);
     }
 
-    public static function cleanHtml(string $dirtyHtml, string $allowedHtml = null): string
+    public static function cleanHtml(string $dirtyHtml, ?string $allowedHtml = null): string
     {
         $storagePath = config('htmlpurifier.cache_directory');
         $cacheDirectory = storage_app_path($storagePath);
@@ -22,7 +22,7 @@ class Purifier
         $config->set('Core.Encoding', 'utf-8');
         $config->set('Cache.SerializerPath', storage_app_path($storagePath));
         $config->set('HTML.Doctype', 'XHTML 1.0 Transitional');
-        if (!$allowedHtml) {
+        if (! $allowedHtml) {
             $config->set('HTML.Allowed', 'b,i,u,p,em,strong,cite,blockquote,code,ul,ol,li,dl,dt,dd,p,br,h1,h2,h3,h4,h5,h6');
         } else {
             $config->set('HTML.Allowed', $allowedHtml);
@@ -40,7 +40,7 @@ class Purifier
 
     private static function makeCache(string $cacheDirectory)
     {
-        if (!file_exists($cacheDirectory)) {
+        if (! file_exists($cacheDirectory)) {
             mkdir($cacheDirectory, 0666, true);
         }
     }
