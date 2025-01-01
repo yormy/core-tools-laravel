@@ -26,9 +26,6 @@ class TextDifference
         return $tagsStripped;
     }
 
-    /**
-     * @return string
-     */
     protected static function htmlDiff($old, $new): string
     {
         $ret = '';
