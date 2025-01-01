@@ -4,17 +4,17 @@ namespace Yormy\CoreToolsLaravel\Helpers;
 
 class Currency
 {
-    public static function toDecimals(int $price_in_cents)
+    public static function toDecimals(int $price_in_cents): string
     {
         return number_format($price_in_cents / 100, 2);
     }
 
-    public function formatPriceFromCents(int $price_in_cents)
+    public function formatPriceFromCents(int $price_in_cents): string
     {
         return self::formatPrice(self::toDecimals($price_in_cents));
     }
 
-    public function formatPrice(float $price_with_decimals)
+    public function formatPrice(float $price_with_decimals): string
     {
         return '$%$'.$price_with_decimals;
     }

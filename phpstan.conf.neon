@@ -1,5 +1,5 @@
 includes:
-    #- ./phpstan-baseline.neon
+    - ./phpstan-baseline.neon
 
 parameters:
 
@@ -9,10 +9,8 @@ parameters:
     excludePaths:
         analyse:
             - ./vendor/**
-            - src/Tests
+            - src/tests/**
 
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
     treatPhpDocTypesAsCertain: false
 
    # reportUnmatchedIgnoredErrors: false

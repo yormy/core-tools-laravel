@@ -29,7 +29,7 @@ class TextDifference
     /**
      * @return string
      */
-    protected static function htmlDiff($old, $new)
+    protected static function htmlDiff($old, $new): string
     {
         $ret = '';
         $diff = self::diffElements(explode(' ', $old), explode(' ', $new));
@@ -47,7 +47,7 @@ class TextDifference
     /**
      * @return array|array[]
      */
-    protected static function diffElements($old, $new)
+    protected static function diffElements($old, $new): array
     {
         $matrix = [];
         $maxlen = 0;
